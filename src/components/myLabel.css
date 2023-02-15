@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.label {
+    font-family: 'Press Start 2P', 'Trebuchet MS', 'Lucida Sans Unicode';
+    padding: 10px;
+}
+
+.normal {
+    font-size: 14px;
+}
+.h1 {
+    font-size: 30px;
+}
+.h2 {
+    font-size: 25px;
+}
+.h3 {
+    font-size: 20px;
+}
+
+.text-primary {
+    color:#009a22;
+    background-color:rgba(255, 255, 255, 0.736);
+    box-shadow: 0 5px #009a22, 0 -5px #009a22, 4px 0 #009a22, -4px 0 #009a22;
+    -webkit-font-smoothing: antialiased;
+}
+
+.text-secondary {
+    font-weight: bold;
+    color: rgb(21, 21, 21);
+    background-color: #009a22;
+    box-shadow: 0 5px #009a22, 0 -5px #009a22, 4px 0 #009a22, -4px 0 #009a22;
+    -webkit-font-smoothing: antialiased;
+}
+
+.text-terciary {
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #009a22;
+    box-shadow: 0 7px #009a22, 0 -7px #009a22, 5px 0 #009a22, -5px 0 #009a22;
+    -webkit-font-smoothing: antialiased;
+}

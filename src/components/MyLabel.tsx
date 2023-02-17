@@ -22,10 +22,9 @@ interface MyLabelProps {
    * You need caps? use it
    */
   allCaps?: boolean;
-
+  
   fontColor?: string;
   backgroundColor?: string;
-  borderColor?: string;
 }
 
 export const MyLabel = ({

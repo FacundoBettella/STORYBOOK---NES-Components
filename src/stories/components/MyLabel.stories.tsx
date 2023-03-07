@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { MyLabel } from "../../components/MyLabel";
+import { MyLabel } from "../../components/my-label/MyLabel";
 
 export default {
   title: "NES UI/Etiquetas/MyLabel",

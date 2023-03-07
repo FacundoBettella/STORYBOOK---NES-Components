@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Regular */
+.nes-btn-regular {
+    font-family: 'Press Start 2P', 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: bold;
+    position: relative;
+    padding: 16px 18px;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: none;
+    color: #212529;
+    background-color: #fff;
+    box-shadow: inset -6px -6px #adafbc;
+    
+    cursor: url(https://unpkg.com/nes.css/assets/cursor-click.png), pointer;
+}
+
+.nes-btn-regular:hover {
+    background-color: #e7e7e7;
+    box-shadow: inset -6px -6px #adafbc;
+}
+
+.nes-btn-regular:active {
+    box-shadow: inset 10px 10px #adafbc;
+}
+
+.nes-btn-regular::before {
+    top: -4px;
+    left: 0;
+    border-right: 2px;
+    border-left: 2px;
+}
+
+.nes-btn-regular::after {
+    top: 0;
+    left: -4px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.nes-btn-regular::before, .nes-btn-regular::after {
+    position: absolute;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-color: #212529;
+    border-style: solid;
+    border-width: 4px;
+}
+
+/* Zelda Green */
+.nes-btn-zelda {
+    font-family: 'Press Start 2P', 'Trebuchet MS', 'Lucida Sans Unicode';
+    position: relative;
+    display: inline-block;
+    padding: 14px 16px;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: url(https://unpkg.com/nes.css/assets/cursor-click.png), pointer;
+    user-select: none;
+    border: none;
+    color: #fff86a;
+    background-color: #4aba91;
+    box-shadow: inset -5px -5px #0e5135;
+}
+
+.nes-btn-zelda:hover {
+    color: #fff200;
+    background-color: #4aba91;
+    box-shadow: inset -7px -7px #0e5135;
+}
+
+.nes-btn-zelda:active {
+    box-shadow: inset 10px 10px #0e5135;
+}
+
+.nes-btn-zelda::before {
+    top: -4px;
+    left: 0;
+    border-right: 2px;
+    border-left: 2px;
+}
+
+.nes-btn-zelda::after {
+    top: 0;
+    left: -4px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.nes-btn-zelda::before, .nes-btn-zelda::after {
+    position: absolute;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-color: #212529;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+/* Magenta */
+.nes-btn-magenta {
+    font-family: 'Press Start 2P', 'Trebuchet MS', 'Lucida Sans Unicode';
+    position: relative;
+    display: inline-block;
+    padding: 14px 16px;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: url(https://unpkg.com/nes.css/assets/cursor-click.png), pointer;
+    user-select: none;
+    border: none;
+    color: white;
+    background-color: #cc00cc60;
+    box-shadow: inset -5px -5px #cc00cc;
+}
+
+.nes-btn-magenta:hover {
+    color: white;
+    background-color: #cc00cc60;
+    box-shadow: inset -7px -7px #cc00cc;
+}
+
+.nes-btn-magenta:active {
+    box-shadow: inset 10px 10px #cc00cc;
+}
+
+.nes-btn-magenta::before {
+    top: -4px;
+    left: 0;
+    border-right: 2px;
+    border-left: 2px;
+}
+
+.nes-btn-magenta::after {
+    top: 0;
+    left: -4px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.nes-btn-magenta::before, .nes-btn-magenta::after {
+    position: absolute;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-color: #212529;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+
+

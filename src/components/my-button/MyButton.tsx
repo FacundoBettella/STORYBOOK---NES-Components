@@ -3,7 +3,7 @@ import "./myButton.css";
 type Size = "small" | "medium" | "large";
 type Type = "regular" | "zelda" | "magenta";
 
-interface myButtonProps {
+export interface myButtonProps {
   label: string;
   type: Type;
 

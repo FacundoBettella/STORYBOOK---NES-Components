@@ -3,7 +3,7 @@ import "./myLabel.css";
 type Size = "normal" | "h1" | "h2" | "h3";
 type Mode = "primary" | "secondary" | "terciary";
 
-interface MyLabelProps {
+export interface MyLabelProps {
   /**
    * It is the Label content
    */

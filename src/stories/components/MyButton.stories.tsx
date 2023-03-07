@@ -1,7 +1,6 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { MyButton } from "../../components/button/MyButton";
+import { MyButton } from "../../components/my-button/MyButton";
 
 export default {
   title: "NES UI/Button/MyButton",

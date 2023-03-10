@@ -1,17 +1,14 @@
-## NES - COMPONENTS
+# nes-ui-storybook-fjb
 
-### The table below shows which commit message gets you which release type when semantic-release runs (using the default configuration):
-
+Publish This package allows me to practice React Components + Storybook + NPM PUBLISH with CI (github actions).
 
 ```
-    COMMIT MESSAGE                                                RELEASE TYPE
-·   fix(pencil): stop graphite breaking when                      Patch Fix Release
-    too much pressure applied	
+yarn add nes-ui-storybook-fjb
 
-·   feat(pencil): add 'graphiteWidth' option	                  Minor Feature Release
+or
 
-·   perf(pencil): remove graphiteWidth option                     Major Breaking Release (Note that the BREAKING CHANGE: token must be in the footer of the commit) 
-    or
-    BREAKING CHANGE: The graphiteWidth option has 
-    been removed. The default graphite width of 
-    10mm is always used for performance reasons.	
+npm i nes-ui-storybook-fjb
+```
+
+### Demo:
+[Storybook Components](https://sunny-platypus-916654.netlify.app/?path=/story/nes-ui-button-mybutton--zelda-green)

@@ -30,3 +30,5 @@ export const MyButton = ({
     </button>
   );
 };
+
+export default MyButton;

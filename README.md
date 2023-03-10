@@ -1,6 +1,6 @@
 # nes-ui-storybook-fjb
 
-Publish This package allows me to practice React Components + Storybook + NPM PUBLISH with CI (github actions).
+This package allows me to practice React Components + Storybook + NPM PUBLISH with CI (github actions).
 
 ```
 yarn add nes-ui-storybook-fjb
